@@ -35,4 +35,4 @@ int get_server_socket();
 int start_server(int serv_socket, int backlog);
 int accept_client(int serv_sock);
 void sigintHandler(int sig_num);
-void *client_receive(void *ptr);
+void *client_receive(void *ptr); 
